@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="15"
+    android:layout_height="match_parent">
+    <ImageView android:id="@+id/iv_kredito_logo_login"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/kredito_logo"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:keepScreenOn="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:layout_weight="7"
+        android:weightSum="7">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name_login"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/app_color_green"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:hint="Name"
+                android:textColorHint="@color/app_color_green"
+                android:id="@+id/et_name_login"
+                android:layout_weight="2" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password_login"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/app_color_green"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:inputType="textPassword"
+                android:textColorHint="@color/app_color_green"
+                android:hint="Password"
+                android:ems="10"
+                android:id="@+id/et_password_login"
+                android:layout_weight="2" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/app_color_green"
+            android:text="Login"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:id="@+id/bt_login_activity_login"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circular_white_button"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/app_color_blue"
+            android:text="Forgot Password ?"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:id="@+id/tv_forgot_pass" />
+
+    </LinearLayout>
+
+</LinearLayout>

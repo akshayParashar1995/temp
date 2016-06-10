@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="200dp"
+
+    android:orientation="vertical"
+
+
+    >
+
+
+
+
+
+
+
+
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+
+      android:layout_weight="0.4"
+      android:orientation="horizontal"
+      >
+
+
+
+
+  </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#1e88e5"
+        android:layout_weight="1.5"
+            android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:text="RTag No : "
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:id="@+id/putaway_list_rtag_item_tvrtagtext"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+
+            android:text="RT001"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center_vertical|left"
+            android:id="@+id/putaway_list_rtag_item_tvrtagname"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:background="#FFFF8800"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="7"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:gravity="center_vertical|right"
+                android:paddingRight="4dp"
+                android:id="@+id/putaway_list_rtag_item_tvrtagcompletedproduct"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"
+
+                android:text="/"
+                android:textColor="#ffffff"
+                android:gravity="center_vertical|left"
+                android:id="@+id/putaway_list_rtag_item_tvrtagslash"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="10"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:gravity="center_vertical|left"
+                android:id="@+id/putaway_list_rtag_item_tvrtagtotalproduct"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+
+                    android:text="Client :"
+                    android:textColor="#e6000000"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="fill_parent"
+                    android:text="Amazon Web "
+                    android:textColor="#e6000000"
+                    android:gravity="center_vertical|left"
+                    android:layout_weight="1.3"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="Putaway Date :"
+
+                    android:gravity="center"
+                    android:textColor="#e6000000"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="sans-serif-light"
+                    android:text="00/00/00"
+                    android:id="@+id/putaway_list_rtag_item_tvrtagputawaydonedate"
+                    android:gravity="center_vertical|left"
+                    android:layout_weight="1.3"
+                    android:textColor="#e6000000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="Code"
+
+                    android:gravity="center"
+                    android:textColor="#e6000000"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="sans-serif-light"
+                    android:text="AWS"
+                    android:gravity="center_vertical|left"
+                    android:layout_weight="1.3"
+                    android:id="@+id/putaway_list_rtag_item_tvclient_code"
+                    android:textColor="#e6000000"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="Putaway Done By :"
+
+                    android:gravity="center"
+                    android:textColor="#e6000000"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Akshay"
+                    android:id="@+id/putaway_list_rtag_item_tvrtagputawaydoneby"
+                    android:gravity="center_vertical|left"
+                    android:layout_weight="1.3"
+                    android:textColor="#e6000000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kredito</string>
+    <string name="trouble_logging_in">Trouble Logging in ?</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="8dp"
+    android:orientation="vertical"
+    tools:context="com.example.akshay.warehouse.putaway.PutawayProductList">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/put_away_whole_layout"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/fragment_putaway_product_list"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:context=".MyActivity"
+                tools:ignore="MergeRootFrame" />
+        <FrameLayout
+            android:id="@+id/fragment_putaaway_product_list_details"
+            android:layout_width="0dp"
+            android:visibility="visible"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:context=".MyActivity"
+            tools:ignore="MergeRootFrame" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

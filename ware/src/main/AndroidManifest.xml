@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akshay.warehouse" >
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".Utils.AppController"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".putaway.PutAwayList"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user_login.UserLoginActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuGrid"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".putaway.Putaway_Product_Detail"
+            android:label="@string/title_activity_putaway__product__detail" >
+        </activity>
+
+        <activity
+            android:name=".user_login.LoginRequest"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".putaway.PutawaySplashScreen"
+            android:label="@string/title_activity_putaway_splash_screen" >
+        </activity>
+        <activity
+            android:name=".putaway.PutawayProductList"
+            android:label="@string/title_activity_putaway_product_list" >
+        </activity>
+    </application>
+
+</manifest>

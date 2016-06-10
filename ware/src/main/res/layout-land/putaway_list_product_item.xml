@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+
+
+
+    >
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="450dp"
+
+        android:translationZ="2dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="0dp"
+        card_view:cardElevation="8dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical">
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#1e88e5"
+                android:layout_weight="0.7"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:text="Bar Code : "
+                    android:textColor="#ffffff"
+                    android:gravity="center_vertical|right"
+                    android:id="@+id/putaway_list_rtag_item_tvrtagtext"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:focusable="false"
+                    android:layout_weight="2"
+                    android:layout_gravity="center_vertical|right"
+                    android:text="BR001"
+                    android:textSize="12sp"
+                    android:id="@+id/putaway_product_barcode"
+                    android:background="@drawable/buttonbackground1"
+                    android:textColor="#ffffff"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#FFFF8800"
+                android:layout_weight="0.7"
+                android:id="@+id/putaway_list_product_issaved"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:text="Location Code : "
+                    android:textColor="#ffffff"
+                    android:gravity="center_vertical|right"
+                    android:id="@+id/putaway_list_rtag_item_tvrtagtext2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:id="@+id/putaway_product_locationcode"
+                    android:text="LTa0c01"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:gravity="center_vertical|left"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="5"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+
+                        android:text="Product Code:"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|right"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_height="fill_parent"
+                        android:text="PC4534"
+                        android:id="@+id/putaway_product_productcode"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|left"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+
+                            android:text="RTag No:"
+                            android:textColor="#e6000000"
+                            android:gravity="center_vertical|right"
+                            android:paddingRight="5dp"
+                            android:layout_weight="1"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/putaway_product_rtagno"
+                            android:text="RT001 "
+                            android:textColor="#e6000000"
+                            android:gravity="center_vertical|left"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+
+                        android:text="Batch No:"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|right"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_height="fill_parent"
+                        android:text="B3a45 "
+                        android:id="@+id/putaway_product_batchno"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|left"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+
+                        android:text="Lot No:"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|right"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_height="fill_parent"
+                        android:text="lt6301 "
+                        android:id="@+id/putaway_product_lotno"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|left"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+
+                        android:text="Product Class:"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|right"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/putaway_product_productclass"
+                        android:text="A1 "
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|left"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+
+                        android:text="Mfg Date:"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|right"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:fontFamily="sans-serif-light"
+                        android:id="@+id/putaway_product_mfgdate"
+                        android:layout_height="fill_parent"
+                        android:text="00/00/0000 "
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|left"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+
+                        android:text="Exp Date:"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|right"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:fontFamily="sans-serif-light"
+                        android:id="@+id/putaway_product_expdate"
+                        android:layout_height="fill_parent"
+                        android:text="00/00/0000 "
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|left"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+
+                        android:text="Qty Recieve:"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|right"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_height="fill_parent"
+                        android:text="50"
+                        android:id="@+id/putaway_product_qtyrecieve"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|left"
+                        android:layout_weight="1.3"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+
+                        android:text="Quality Status:"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|right"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_height="fill_parent"
+                        android:text="Nice"
+                        android:id="@+id/putaway_product_qtystatus"
+                        android:textColor="#e6000000"
+                        android:gravity="center_vertical|left"
+                        android:layout_weight="1.3"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.2"
+                        android:orientation="horizontal"
+                        >
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

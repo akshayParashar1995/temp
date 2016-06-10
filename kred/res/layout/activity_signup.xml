@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="15"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView android:id="@+id/iv_kredito_logo"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/kredito_logo"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:keepScreenOn="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:weightSum="14">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/app_color_green"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="Name"
+            android:textColorHint="@color/app_color_green"
+            android:id="@+id/et_name"
+            android:layout_weight="2" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/app_color_green"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/app_color_green"
+            android:hint="Email"
+            android:ems="10"
+            android:id="@+id/et_email"
+            android:layout_weight="2" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingBottom="1dp"
+            android:paddingRight="2dp"
+            android:weightSum="2"
+            android:layout_weight="2">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/app_color_green"
+                android:hint="Phone No"
+                android:id="@+id/et_phone"
+                android:layout_weight="1" />
+            <Button
+                android:layout_width="0dp"
+                android:text="Send OTP"
+                android:background="@drawable/circular_blue_button"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_send_otp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingRight="2dp"
+            android:paddingTop="1dp"
+            android:layout_weight="2">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/app_color_green"
+                android:hint="OTP"
+                android:id="@+id/et_otp"
+                android:layout_weight="1" />
+            <Button
+                android:layout_width="0dp"
+                android:text="Verify"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circular_green_button"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_verify_otp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/app_color_green"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/app_color_green"
+            android:hint="Password"
+            android:ems="10"
+            android:id="@+id/et_password"
+            android:layout_weight="2" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_promo"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/app_color_green"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/app_color_green"
+            android:hint="Promotional Code ( if any )"
+            android:ems="10"
+            android:id="@+id/et_promo_code"
+            android:layout_weight="2" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/app_color_blue"
+            android:text="asdasdasdasda"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:id="@+id/tv_terms_conditions" />
+
+    </LinearLayout>
+
+</LinearLayout>

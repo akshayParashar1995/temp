@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.insectiousapp.warehouse.MenuActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:translationZ="2dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="8dp"
+            >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/iv_exercise_list_item1"
+                android:background="@mipmap/putawaylandscape"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/activity_menu_tvputaway"
+                    android:background="@drawable/highlightedview1"
+                    android:text="Put Away"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"
+                    android:textColor="#ffffff"
+                    />
+
+            </FrameLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:translationZ="2dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="8dp"
+            >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/iv_exercise_list_item2"
+                android:background="@mipmap/predeliverylandscape"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/activity_menu_tvputpredelivery"
+                    android:background="@drawable/highlightedview1"
+                    android:text="Pre Delivery"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"
+                    android:textColor="#ffffff"
+                    />
+
+            </FrameLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:translationZ="2dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="8dp"
+            >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/iv_exercise_list_item3"
+                android:background="@mipmap/pickinglandscape"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/activity_menu_tvpicking"
+                    android:background="@drawable/highlightedview1"
+                    android:text="Picking"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"
+                    android:textColor="#ffffff"
+                    />
+
+            </FrameLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:translationZ="2dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="8dp"
+            >
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/iv_exercise_list_item4"
+                android:background="@mipmap/cyclecountlandscape"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/activity_menu_tvcyclecount"
+                    android:background="@drawable/highlightedview1"
+                    android:text="Cycle Count"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"
+                    android:textColor="#ffffff"
+                    />
+
+            </FrameLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
